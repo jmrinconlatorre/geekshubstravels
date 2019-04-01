@@ -1,0 +1,76 @@
+html, body {
+    background-color: aqua;
+    margin: 0;
+    font-size: 62, 5%;
+    /* 62,5% esto lo ponemos porque pasamos a 10 px en todo con em y rem 
+    (el rem base son 16px por defecto), lo hacemos aqui porque es el padre de todo (html)*/
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+header{    
+    background-image: url(../img/nathan-anderson-316188-unsplash.jpg);    
+    background-repeat:no-repeat;
+    /*-webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;*/
+    background-size: 100% 100%;
+    height: 25em;
+}
+
+nav{    
+    display: inline-block;
+}
+/* .redessociales{    
+    position: absolute; 
+    right: 0;
+    top: 0px;
+}
+*/
+.links a {
+    color: white;
+}
+
+.imgheader{
+    height: 50px;
+    width: 120px;    
+}
+
+.imgRRSS{
+    height: 30px;
+    width: 30px;    
+}
+
+#viaja{
+    position: center;
+    text-align: center;
+    
+}
+
+#verDestinos{
+    background-color: yellow ;
+    color: black;
+    font-style: italic;
+    border: none;    
+    height: 3em;
+    width: 6em;
+}
+
+p{
+    text-align: "justify";
+}

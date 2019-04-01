@@ -1,0 +1,16 @@
+html,
+body {
+    background-color: aqua;
+    margin: 0;
+    font-size: 62, 5%;
+    /* 62,5% esto lo ponemos porque pasamos a 10 px en todo con em y rem 
+    (el rem base son 16px por defecto), lo hacemos aqui porque es el padre de todo (html)*/
+}
+
+h1{
+    font-size: 3,2rem; /*esto serian 32 px*/
+}
+
+p{
+    font-size: 1,6rem;
+}
