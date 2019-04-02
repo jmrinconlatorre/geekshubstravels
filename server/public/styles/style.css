@@ -1,34 +1,25 @@
 html, body {
-    background-color: aqua;
     margin: 0;
     font-size: 62, 5%;
     /* 62,5% esto lo ponemos porque pasamos a 10 px en todo con em y rem 
     (el rem base son 16px por defecto), lo hacemos aqui porque es el padre de todo (html)*/
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-
 #navBar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
+    height: 5em;
 }
 
 
 header{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-image: url(../img/nathan-anderson-316188-unsplash.jpg);    
     background-repeat:no-repeat;
-    /*-webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;*/
     background-size: 100% 100%;
     height: 25em;
 }
@@ -44,6 +35,20 @@ nav{
 */
 .links a {
     color: white;
+    position: center;    
+}
+
+.links{
+    height: auto;
+}
+
+.logo{
+    height: auto;
+}
+
+.redessociales{
+    height: auto;
+    position: bottom;
 }
 
 .imgheader{
@@ -73,4 +78,71 @@ nav{
 
 p{
     text-align: "justify";
+}
+
+#divCities{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.cities{
+    height: 16em;
+    width: 16em;
+    background-color: red;    
+    margin: 4em;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;      
+
+}
+#London{
+    background-image: url(../img/london.jpg);  
+   
+}
+
+#Mykonos{
+    background-image: url(../img/mykonos.jpeg);    
+
+}
+
+#Paris{
+    background-image: url(../img/paris.jpg);
+
+}
+
+#Amsterdam{
+    background-image: url(../img/amsterdam.jpg);
+    
+}
+#Roma{
+    background-image: url(../img/roma.jpeg);  
+  
+}
+
+#Dublin{
+    background-image: url(../img/dublin.jpg);  
+  
+}
+
+#quienSomos{
+    background-image: url(../img/moxilero.JPG);    
+    padding: 3em;
+}
+
+.divSomos{
+    margin: 0em 2em 0em 2em;
+    padding: 2em;
+    width: 20em;
+    position: left;
+    background-color: white;
+    text-align: center;
+}
+
+#btDescubrir{
+    background-color: black;
+    color: yellow;
+    height: 2em;
 }
