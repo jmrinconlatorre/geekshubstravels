@@ -1,11 +1,12 @@
-html, body {
+html,
+body {
     margin: 0;
     font-size: 62, 5%;
     /* 62,5% esto lo ponemos porque pasamos a 10 px en todo con em y rem 
     (el rem base son 16px por defecto), lo hacemos aqui porque es el padre de todo (html)*/
 }
 
-#navBar{
+#navBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,19 +15,20 @@ html, body {
 }
 
 
-header{    
+header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url(../img/nathan-anderson-316188-unsplash.jpg);    
-    background-repeat:no-repeat;
+    background-image: url(../img/nathan-anderson-316188-unsplash.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 25em;
 }
 
-nav{    
+nav {
     display: inline-block;
 }
+
 /* .redessociales{    
     position: absolute; 
     right: 0;
@@ -35,104 +37,110 @@ nav{
 */
 .links a {
     color: white;
-    position: center;    
+    position: center;
 }
 
-.links{
+.links {
     height: auto;
 }
 
-.logo{
+.logo {
     height: auto;
 }
 
-.redessociales{
+.redessociales {
     height: auto;
     position: bottom;
 }
 
-.imgheader{
+.imgheader {
     height: 50px;
-    width: 120px;    
+    width: 120px;
 }
 
-.imgRRSS{
+.imgRRSS {
     height: 30px;
-    width: 30px;    
+    width: 30px;
 }
 
-#viaja{
+#viaja {
     position: center;
     text-align: center;
-    
+
 }
 
-#verDestinos{
-    background-color: yellow ;
+#verDestinos {
+    background-color: yellow;
     color: black;
     font-style: italic;
-    border: none;    
+    border: none;
     height: 3em;
     width: 6em;
 }
 
-p{
+#bt {
+    background-color: black;
+    color: yellow;
+    height: 2em;
+}
+
+p {
     text-align: "justify";
 }
 
-#divCities{
+#divCities {
     display: flex;
     flex-direction: row;
-    background-color: aqua;    
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
-.cities{
+.cities {
     height: 16em;
     width: 16em;
-    background-color: red;    
     margin: 4em;
-    background-repeat:no-repeat;
-    background-size: 100% 100%;      
-
-}
-#London{
-    background-image: url(../img/london.jpg);  
-   
-}
-
-#Mykonos{
-    background-image: url(../img/mykonos.jpeg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 
-#Paris{
+#London {
+    background-image: url(../img/london.jpg);
+
+}
+
+#Mykonos {
+    background-image: url(../img/mykonos.jpeg);
+
+}
+
+#Paris {
     background-image: url(../img/paris.jpg);
 
 }
 
-#Amsterdam{
+#Amsterdam {
     background-image: url(../img/amsterdam.jpg);
-    
-}
-#Roma{
-    background-image: url(../img/roma.jpeg);  
-  
+
 }
 
-#Dublin{
-    background-image: url(../img/dublin.jpg);  
-  
+#Roma {
+    background-image: url(../img/roma.jpeg);
+
 }
 
-#quienSomos{
-    background-image: url(../img/moxilero.JPG);    
+#Dublin {
+    background-image: url(../img/dublin.jpg);
+
+}
+
+#quienSomos {
+    background-image: url(../img/moxilero.JPG);
     padding: 3em;
 }
 
-.divSomos{
+.divSomos {
     margin: 0em 2em 0em 2em;
     padding: 2em;
     width: 20em;
@@ -141,8 +149,45 @@ p{
     text-align: center;
 }
 
-#btDescubrir{
-    background-color: black;
-    color: yellow;
-    height: 2em;
+
+
+.mapForm {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.mapFormchildren {
+    height: 30em;
+    width: 30em;
+}
+footer{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+}
+
+footer div{
+    padding: 2em;
+    width: 15em;
+}
+
+/* .embed-container {
+        position: relative;
+        padding-bottom: 20em;
+        height: 0;
+        overflow: hidden;
+    }
+    .embed-container iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    } */
